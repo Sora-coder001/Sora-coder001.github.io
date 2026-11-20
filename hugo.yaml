@@ -1,0 +1,166 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Sourabh Salunke"
+theme: hugo-profile
+
+params:
+  title: "Sourabh Salunke"
+  description: "Business analyst with three years of experience in supplier quality analytics, now studying Business Analytics and Information Management at Purdue University."
+  favicon: "/fav.png"
+  copyright: "Sourabh Salunke."
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Sourabh Salunke"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Sourabh."
+    subtitle: "I turn business data into decisions."
+    content: "I'm a business analyst with three years of experience building Power BI dashboards and leading root-cause analysis at JCB India. I'm now studying Business Analytics and Information Management at Purdue University's Daniels School of Business."
+    image: /images/me.jpg
+    roundImage: true
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Connect on LinkedIn"
+      url: "https://www.linkedin.com/in/sourabh-salunke-370214203/"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/sourabh-salunke-370214203/
+
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I spent three years as a Business Analyst on the Supplier Quality & Analytics team at JCB India. I gathered requirements from internal stakeholders, analyzed failure and performance data across 20+ supplier accounts, and turned the findings into dashboards and recommendations that cross-functional teams acted on.
+
+      I'm now in the one-year MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding data mining, forecasting and modeling to the SQL, Power BI and Python I already use. I'm looking for Summer 2027 internships in business analysis, BI engineering and product analytics.
+    skills:
+      enable: true
+      title: "Tools I work with:"
+      items:
+        - "Power BI"
+        - "SQL"
+        - "Excel"
+        - "Python (Pandas, NumPy, Matplotlib, Seaborn)"
+        - "TensorFlow"
+
+  experience:
+    enable: true
+    items:
+      - company: "JCB India, Pune, India"
+        jobs:
+          - name: "Business Analyst, Supplier Quality & Analytics"
+            date: "Jul 2023 - Jul 2026"
+            content: |
+              - Gathered requirements from internal stakeholders and led cross-functional root-cause analysis with 20+ supplier teams on part defects, driving process improvements at supplier plants.
+              - Analyzed field failure data and performance metrics across 20+ supplier accounts using SQL and Power BI to isolate key drivers, recommending targeted improvements that reduced commodity issues PPM by 79% (2024-2025).
+              - Built a Power BI dashboard monitoring leakages, turning raw quality data into recommendations for stakeholder presentations and cutting leakages by 48% (75% at four key suppliers).
+              - Developed automated dashboards to track A-class component replacements, proposing process fixes to stakeholders that cut replacements by 40%+ (2024-mid-2026).
+              - Ran biweekly fluid contamination tracking in Power BI, consolidating supplier and incoming quality reports to pinpoint root causes and recommend supplier-end process improvements, eliminating concerns at the 2 worst-performing plants.
+
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Master of Science in Business Analytics and Information Management"
+        school:
+          name: "Purdue University, Daniels School of Business"
+          url: "https://business.purdue.edu/"
+        date: "2026 - Expected Jul 2027"
+        content: |-
+          Relevant coursework: Data Mining, Business Analysis, Management of Organizational Data
+      - title: "Bachelor of Technology in Mechanical Engineering"
+        school:
+          name: "COEP Technological University, Pune, India"
+        date: "2019 - Jul 2023"
+
+  achievements:
+    enable: true
+    title: "Leadership & Certifications"
+    items:
+      - title: "Structure Subsystem Engineer, COEP's Satellite Initiative (CSAT)"
+        content: "Part-time, Feb 2020 - Dec 2021. Developed a deployable aluminum solar sail mechanism, tested and refined its deployment through iterative design cycles, and contributed to the design of an H-shaped Yagi-Uda antenna holding system."
+      - title: "Learn to Program: The Fundamentals"
+        content: "University of Toronto, December 2025."
+      - title: "Data Science Bootcamp"
+        content: "Udemy, August 2022."
+
+  projects:
+    enable: true
+    items:
+      - title: "Industry Practicum: Inventory Demand Forecasting"
+        content: "Team project (Aug 2026 - ongoing) with a small-business client. Forecasting inventory demand from historical sales data to inform stock-level decisions, and building an order-monitoring website that tracks custom orders in real time for the business owner."
+        badges:
+          - "Forecasting"
+          - "Web app"
+      - title: "Stock Market: Data Visualization & Price Forecasting"
+        content: "Analyzed historical prices for four companies with NumPy and Pandas, visualized price and volume trends, computed 9-, 14- and 44-day moving averages and average daily returns, and evaluated cross-stock correlation with Seaborn. Built an LSTM model in TensorFlow to forecast future prices. August 2022."
+        badges:
+          - "Python"
+          - "Pandas"
+          - "Matplotlib"
+          - "Seaborn"
+          - "TensorFlow"
+
+  contact:
+    enable: true
+    content: "I'm open to Summer 2027 internships and happy to talk about analytics, dashboards, or forecasting. The easiest way to reach me is by email."
+    btnName: "Email me"
+    btnLink: "mailto:Ssalunk@purdue.edu"
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      linkedin: https://www.linkedin.com/in/sourabh-salunke-370214203/
+
+  listPages:
+    disableFeaturedImage: true
+
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+    scrollprogress:
+      enable: false
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
