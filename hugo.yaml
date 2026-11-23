@@ -65,7 +65,7 @@ params:
     content: |-
       I spent three years as a Business Analyst on the Supplier Quality & Analytics team at JCB India. I gathered requirements from internal stakeholders, led root-cause analysis with 20+ international and domestic suppliers, and built automated Power BI dashboards and KPI trackers that reduced commodity issues PPM by 79%, leakages by 48%, and A-class component replacements by 40%+.
 
-      I'm now pursuing an MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding Python, predictive modeling and database skills to my SQL and Power BI foundation. Recent projects include an ad click prediction model and an industry practicum building a data pipeline and inventory planner for a small-business client. I'm looking for Summer 2027 internships in business analysis, BI engineering and product analytics.
+      I'm now pursuing an MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding Python, predictive modeling and database skills to my SQL and Power BI foundation. Recent projects include an ad click prediction model and an industry practicum building a data pipeline and inventory planner for a small-business client. I'm looking for Summer 2027 internships and full-time roles in business analysis, BI engineering and product analytics.
     skills:
       enable: true
       title: "Tools I work with:"
@@ -139,7 +139,7 @@ params:
           name: "Team repo"
           link: https://github.com/santiagovelasquezchang/bakery-demand-forecasting
       - title: "Ad Click Prediction"
-        content: "Class competition scored on ROC-AUC, predicting click probability for 20,000 ad impressions with only a 1.35% click rate. Flagged missing-value sentinels as features, engineered tenure and session ratios, and blended Random Forest, Extra Trees, LightGBM, XGBoost and logistic regression using out-of-fold weights from 5-fold stratified CV. Best ensemble reached 0.799 OOF AUC."
+        content: "Class competition scored on ROC-AUC, predicting click probability for 20,000 ad impressions with only a 1.35% click rate. Flagged missing-value sentinels as features, engineered tenure and session ratios, and blended Random Forest, Extra Trees, LightGBM, XGBoost and logistic regression using out-of-fold weights from 5-fold stratified CV. Best ensemble reached 0.798 OOF AUC."
         badges:
           - "Python"
           - "Classification"
@@ -161,7 +161,7 @@ params:
 
   contact:
     enable: true
-    content: "I'm open to Summer 2027 internships and happy to talk about analytics, dashboards, or forecasting. The easiest way to reach me is by email."
+    content: "I'm open to Summer 2027 internships and full-time roles, and happy to talk about analytics, dashboards, or forecasting. The easiest way to reach me is by email."
     btnName: "Email me"
     btnLink: "mailto:Ssalunk@purdue.edu"
 
