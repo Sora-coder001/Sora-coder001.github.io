@@ -41,7 +41,7 @@ params:
     intro: "Hi, my name is"
     title: "Sourabh."
     subtitle: "I turn operational data into decisions leaders act on."
-    content: "Business Analyst with 3 years at JCB India, where my Power BI dashboards and root-cause analysis with 20+ suppliers cut quality issues by 79% and leakages by 48%. Now pursuing an MS in Business Analytics and Information Management at Purdue, building forecasting models, data pipelines and inventory planning tools with SQL and Python."
+    content: "Business Analyst with 3 years at JCB India, where my Power BI dashboards and root-cause analysis with 20+ suppliers cut commodity issues PPM by 79% and leakages by 48%. Now pursuing an MS in Business Analytics and Information Management at Purdue, building predictive models, data pipelines and inventory planning tools with SQL and Python."
     image: /images/me.jpg
     roundImage: true
     bottomImage:
