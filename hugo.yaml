@@ -132,6 +132,9 @@ params:
           - "Data Pipelines"
           - "Inventory Planning"
           - "Dashboarding"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sora-coder001/Marcela-s-cake---Industry-practicum
         featured:
           name: "Team repo"
           link: https://github.com/santiagovelasquezchang/bakery-demand-forecasting
