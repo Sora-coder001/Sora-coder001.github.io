@@ -123,7 +123,7 @@ params:
   projects:
     enable: true
     items:
-      - title: "Industry Practicum: Bakery Demand & Inventory Analytics"
+      - title: "Bakery Demand & Inventory Analytics"
         content: "Five-person team project (Aug 2026 - ongoing) for a small bakery-cafe: a weekly demand forecast, a phone stock scanner, an online ordering site and an inventory planner. I loaded and cleaned the partner's sales exports in a shared Supabase (PostgreSQL) database, built the ingredients and recipes layer, and wrote the Python inventory planner that turns the forecast into weekly purchase plans (periodic review, reorder point and two-bin policies) plus a product- and ingredient-level dashboard for the owner's admin page."
         badges:
           - "Python"
