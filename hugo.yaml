@@ -120,14 +120,20 @@ params:
   projects:
     enable: true
     items:
-      - title: "Industry Practicum: Inventory Demand Forecasting"
-        content: "Team project (Aug 2026 - ongoing) with a small-business client. Forecasting inventory demand from historical sales data to inform stock-level decisions, and building an order-monitoring website that tracks custom orders in real time for the business owner."
+      - title: "Industry Practicum: Bakery Demand & Inventory Analytics"
+        content: "Five-person team project (Aug 2026 - ongoing) for a small bakery-cafe: a weekly demand forecast, a phone stock scanner, an online ordering site and an inventory planner. I loaded and cleaned the partner's sales exports in a shared Supabase (PostgreSQL) database, built the ingredients and recipes layer, and wrote the Python inventory planner that turns the forecast into weekly purchase plans (periodic review, reorder point and two-bin policies) plus a product- and ingredient-level dashboard for the owner's admin page."
         badges:
-          - "Forecasting"
-          - "Web app"
+          - "Python"
+          - "SQL"
+          - "Supabase"
+          - "Inventory planning"
+          - "Dashboard"
         links:
           - icon: fab fa-github
             url: https://github.com/Sora-coder001/Marcela-s-cake---Industry-practicum
+        featured:
+          name: "Team repo"
+          link: https://github.com/santiagovelasquezchang/bakery-demand-forecasting
       - title: "Ad Click Prediction"
         content: "Class competition scored on ROC-AUC, predicting click probability for 20,000 ad impressions with only a 1.35% click rate. Flagged missing-value sentinels as features, engineered tenure and session ratios, and blended Random Forest, Extra Trees, LightGBM, XGBoost and logistic regression using out-of-fold weights from 5-fold stratified CV. Best ensemble reached 0.799 OOF AUC."
         badges:
