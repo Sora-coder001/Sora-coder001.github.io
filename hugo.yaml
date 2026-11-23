@@ -5,7 +5,7 @@ theme: hugo-profile
 
 params:
   title: "Sourabh Salunke"
-  description: "Business analyst with three years of experience in supplier quality analytics, now studying Business Analytics and Information Management at Purdue University."
+  description: "Business Analyst with three years of experience turning operational data into decisions, now pursuing an MS in Business Analytics and Information Management at Purdue University."
   favicon: "/fav.png"
   copyright: "Sourabh Salunke."
   useBootstrapCDN: false
@@ -40,8 +40,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Sourabh."
-    subtitle: "I turn business data into decisions."
-    content: "I'm a business analyst with three years of experience building Power BI dashboards and leading root-cause analysis at JCB India. I'm now studying Business Analytics and Information Management at Purdue University's Daniels School of Business."
+    subtitle: "I turn operational data into decisions leaders act on."
+    content: "Business Analyst with 3 years at JCB India, where my Power BI dashboards and root-cause analysis with 20+ suppliers cut quality issues by 79% and leakages by 48%. Now pursuing an MS in Business Analytics and Information Management at Purdue, building forecasting models, data pipelines and inventory planning tools with SQL and Python."
     image: /images/me.jpg
     roundImage: true
     bottomImage:
@@ -63,32 +63,35 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      I spent three years as a Business Analyst on the Supplier Quality & Analytics team at JCB India. I gathered requirements from internal stakeholders, analyzed failure and performance data across 20+ supplier accounts, and turned the findings into dashboards and recommendations that cross-functional teams acted on.
+      I spent three years as a Business Analyst on the Supplier Quality & Analytics team at JCB India. I gathered requirements from internal stakeholders, led root-cause analysis with 20+ international and domestic suppliers, and built automated Power BI dashboards and KPI trackers that reduced commodity issues PPM by 79%, leakages by 48%, and A-class component replacements by 40%+.
 
-      I'm now in the one-year MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding data mining, forecasting and modeling to the SQL, Power BI and Python I already use. I'm looking for Summer 2027 internships in business analysis, BI engineering and product analytics.
+      I'm now pursuing an MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding Python, predictive modeling and database skills to my SQL and Power BI foundation. Recent projects include an ad click prediction model and an industry practicum building a data pipeline and inventory planner for a small-business client. I'm looking for Summer 2027 internships in business analysis, BI engineering and product analytics.
     skills:
       enable: true
       title: "Tools I work with:"
       items:
-        - "Power BI"
         - "SQL"
-        - "Excel"
-        - "Python (Pandas, NumPy, Matplotlib, Seaborn)"
-        - "TensorFlow"
+        - "Python (Pandas, NumPy, Matplotlib, Seaborn, TensorFlow)"
+        - "Power BI"
+        - "BigQuery"
+        - "Advanced Excel"
+        - "Statistical Modeling"
+        - "SAP"
+        - "Lean Six Sigma"
 
   experience:
     enable: true
     items:
       - company: "JCB India, Pune, India"
         jobs:
-          - name: "Business Analyst, Supplier Quality & Analytics"
+          - name: "Business Analyst (Assistant Manager), Supplier Quality & Analytics"
             date: "Jul 2023 - Jul 2026"
             content: |
-              - Gathered requirements from internal stakeholders and led cross-functional root-cause analysis with 20+ supplier teams on part defects, driving process improvements at supplier plants.
-              - Analyzed field failure data and performance metrics across 20+ supplier accounts using SQL and Power BI to isolate key drivers, recommending targeted improvements that reduced commodity issues PPM by 79% (2024-2025).
+              - Gathered requirements from internal stakeholders and led root-cause analysis with 20+ international and domestic suppliers, driving process improvements at supplier plants.
+              - Analyzed field failure data and performance metrics across 20+ supplier accounts using SQL, Power BI and statistical analysis to isolate key drivers, recommending targeted improvements that reduced commodity issues PPM by 79% (2024-2025).
               - Built a Power BI dashboard monitoring leakages, turning raw quality data into recommendations for stakeholder presentations and cutting leakages by 48% (75% at four key suppliers).
               - Developed automated dashboards to track A-class component replacements, proposing process fixes to stakeholders that cut replacements by 40%+ (2024-mid-2026).
-              - Ran biweekly fluid contamination tracking in Power BI, consolidating supplier and incoming quality reports to pinpoint root causes and recommend supplier-end process improvements, eliminating concerns at the 2 worst-performing plants.
+              - Ran biweekly fluid contamination tracking in Power BI, consolidating performance reports to test hypotheses, locate root causes, and partner with plant leaders to eliminate issues at the 2 underperforming facilities.
 
   education:
     enable: true
@@ -98,7 +101,7 @@ params:
         school:
           name: "Purdue University, Daniels School of Business"
           url: "https://business.purdue.edu/"
-        date: "2026 - Expected Jul 2027"
+        date: "2026 - Expected Aug 2027"
         content: |-
           Relevant coursework: Data Mining, Business Analysis, Management of Organizational Data
       - title: "Bachelor of Technology in Mechanical Engineering"
