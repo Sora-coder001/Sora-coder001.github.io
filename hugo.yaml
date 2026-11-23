@@ -139,9 +139,11 @@ params:
         content: "Class competition scored on ROC-AUC, predicting click probability for 20,000 ad impressions with only a 1.35% click rate. Flagged missing-value sentinels as features, engineered tenure and session ratios, and blended Random Forest, Extra Trees, LightGBM, XGBoost and logistic regression using out-of-fold weights from 5-fold stratified CV. Best ensemble reached 0.799 OOF AUC."
         badges:
           - "Python"
-          - "LightGBM"
-          - "XGBoost"
-          - "scikit-learn"
+          - "Classification"
+          - "Feature Engineering"
+          - "Ensemble Modeling"
+          - "LightGBM / XGBoost"
+          - "Cross-Validation"
         links:
           - icon: fab fa-github
             url: https://github.com/Sora-coder001/Ad-prediction-model-
