@@ -134,7 +134,7 @@ params:
           - "Dashboarding"
         links:
           - icon: fab fa-github
-            url: https://github.com/Sora-coder001/Marcela-s-cake---Industry-practicum
+            url: https://github.com/Sora-coder001/bakery-inventory-planner
         featured:
           name: "Team repo"
           link: https://github.com/santiagovelasquezchang/bakery-demand-forecasting
