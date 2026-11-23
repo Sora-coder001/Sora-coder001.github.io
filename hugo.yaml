@@ -56,6 +56,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/sourabh-salunke-370214203/
+        - icon: fab fa-github
+          url: https://github.com/Sora-coder001
 
   about:
     enable: true
@@ -123,6 +125,19 @@ params:
         badges:
           - "Forecasting"
           - "Web app"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sora-coder001/Marcela-s-cake---Industry-practicum
+      - title: "Ad Click Prediction"
+        content: "Class competition scored on ROC-AUC, predicting click probability for 20,000 ad impressions with only a 1.35% click rate. Flagged missing-value sentinels as features, engineered tenure and session ratios, and blended Random Forest, Extra Trees, LightGBM, XGBoost and logistic regression using out-of-fold weights from 5-fold stratified CV. Best ensemble reached 0.799 OOF AUC."
+        badges:
+          - "Python"
+          - "LightGBM"
+          - "XGBoost"
+          - "scikit-learn"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Sora-coder001/Ad-prediction-model-
       - title: "Stock Market: Data Visualization & Price Forecasting"
         content: "Analyzed historical prices for four companies with NumPy and Pandas, visualized price and volume trends, computed 9-, 14- and 44-day moving averages and average daily returns, and evaluated cross-stock correlation with Seaborn. Built an LSTM model in TensorFlow to forecast future prices. August 2022."
         badges:
@@ -142,6 +157,7 @@ params:
     recentPosts:
       enable: false
     socialNetworks:
+      github: https://github.com/Sora-coder001
       linkedin: https://www.linkedin.com/in/sourabh-salunke-370214203/
 
   listPages:
