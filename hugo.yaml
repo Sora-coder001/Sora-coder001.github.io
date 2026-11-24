@@ -65,7 +65,7 @@ params:
     content: |-
       I spent three years as a Business Analyst on the Supplier Quality & Analytics team at JCB India. I gathered requirements from internal stakeholders, led root-cause analysis with 20+ international and domestic suppliers, and built automated Power BI dashboards and KPI trackers that reduced commodity issues PPM by 79%, leakages by 48%, and A-class component replacements by 40%+.
 
-      I'm now pursuing an MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding Python, predictive modeling and database skills to my SQL and Power BI foundation. Recent projects include an ad click prediction model and an industry practicum building a data pipeline and inventory planner for a small-business client. I'm looking for Summer 2027 internships and full-time roles in business analysis, BI engineering and product analytics.
+      I'm now pursuing an MS in Business Analytics and Information Management at Purdue's Daniels School of Business, adding Python, predictive modeling and database skills to my SQL and Power BI foundation. Recent projects include an ad click prediction model and an industry practicum where I built the data pipeline and the inventory planner for a small-business client, now running on a daily schedule against a live database. I'm looking for Summer 2027 internships and full-time roles in business analysis, BI engineering and product analytics.
     skills:
       enable: true
       title: "Tools I work with:"
@@ -124,7 +124,7 @@ params:
     enable: true
     items:
       - title: "Bakery Demand & Inventory Analytics"
-        content: "Five-person team project (Aug 2026 - ongoing) for a small bakery-cafe: a weekly demand forecast, a phone stock scanner, an online ordering site and an inventory planner. I loaded and cleaned the partner's sales exports in a shared Supabase (PostgreSQL) database, built the ingredients and recipes layer, and wrote the Python inventory planner that turns the forecast into weekly purchase plans (periodic review, reorder point and two-bin policies) plus a product- and ingredient-level dashboard for the owner's admin page."
+        content: "Five-person team project (Aug 2026 - ongoing) for a small bakery-cafe: a weekly demand forecast, a phone stock scanner, an online ordering site and an inventory planner. I built the data foundation, loading 18,000 point-of-sale rows into a shared Supabase (PostgreSQL) database and cleaning them with SQL views that normalise item names and classify which trading weeks the forecast may learn from, then added the ingredients and recipes layer that converts sales into ingredient usage. On top of it I wrote the Python inventory planner: it turns the forecast into a weekly purchase plan under periodic-review, reorder-point and two-bin policies, allowing for shelf life, lead times and whole pack sizes, and simulating expiry so stock that will spoil is not counted as cover. It runs daily on GitHub Actions and writes the plan and a product- and ingredient-level dashboard back to the database for the owner's admin page."
         badges:
           - "Python"
           - "SQL"
@@ -132,6 +132,7 @@ params:
           - "Data Pipelines"
           - "Inventory Planning"
           - "Dashboarding"
+          - "GitHub Actions"
         links:
           - icon: fab fa-github
             url: https://github.com/Sora-coder001/bakery-inventory-planner
